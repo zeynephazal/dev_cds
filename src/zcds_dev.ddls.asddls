@@ -23,3 +23,4 @@ define view ZCDS_DEV
     lfa1.name1 as adr,
    concat_with_space( lfa1.stras , lfa1.mcod3 , 1 ) as address
 }
+
