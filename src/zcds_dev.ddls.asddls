@@ -20,6 +20,6 @@ define view ZCDS_DEV
     ekpo.lgort,
     ekpo.meins, 
     lfa1.lifnr,
-    lfa1.name1 as ad1,
-   concat_with_space( lfa1.stras , lfa1.mcod3 , 1 ) as Satici_adresi
+    lfa1.name1 as adr,
+   concat_with_space( lfa1.stras , lfa1.mcod3 , 1 ) as address
 }
